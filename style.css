@@ -1,0 +1,78 @@
+
+body{
+    background-image: url("backkk.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #005081;
+  font-family: 'Caveat', cursive;
+  text-shadow: 20px #036280;
+}
+
+#score{
+    float: left;
+    margin-left: 20px;
+    font-family: 'Caveat', cursive;
+    
+}
+
+#time{
+    float: right;
+    margin-right: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+h1
+{
+  text-align: center;
+
+}
+
+#show_sketch
+{
+  float:right;
+  margin-right: 20px;
+  font-family: 'Caveat', cursive;
+}
+
+canvas 
+  {
+    border:5px solid #E8EDE7;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 2px 2px 60px #E8EDE7;}
+  to {box-shadow: 2px 2px 60px #d4ecf3;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+
+  
+
+#yosketch{
+    font-family: 'Caveat', cursive;
+}
+
+#confidence{
+    font-family: 'Caveat', cursive;
+}
+
+#sketchDraw{
+    font-family: 'Caveat', cursive;
+}
+
